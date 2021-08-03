@@ -1,0 +1,312 @@
+@media (min-width: 360px) and (max-width: 767px) /* SMARTPHONES */ {
+    /* PARAMETRES GENERAUX */
+  
+  h2 {
+    /*font-family: 'Raleway-Semibold';*/
+    font-size: 20px;
+    max-width: 90%;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  /* HEADER */
+
+  header {
+    width: 100%;
+    padding-left: 5px;
+    
+  }
+  
+  .contenairhead {
+    display: flex;
+    padding-top: 10px;
+    
+  }
+  
+  .headernav {
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* HEADER MENU */
+  .inscrire {
+    position: absolute;
+    top: 29px;
+    right: 30px;
+  }
+  .acti {
+    position: absolute;
+    top: 29px;
+    right: 1px;
+  }
+  .heberg {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    padding-bottom: 5px;
+    
+    
+  }
+  .acti{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    padding-bottom: 5px;
+  }
+  nav a {
+    font-weight: 500;
+    flex-wrap: wrap;
+    padding: 10vw 10vw 1vw 15vw;
+  }
+  nav ul li{
+  border-bottom: 3px solid #0065fc;
+  color: #0065fc;
+  overflow:hidden;
+  
+    
+  }
+  nav li {
+   position: absolute;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 33px;
+    
+  }
+  
+.soustext
+{
+  
+  margin-left:20px
+}
+.iconemap
+{
+  margin-left:-20px
+}
+.bouttonrecherche {
+  border-radius: 15px 15px 15px 15px;
+  margin-left:-60px
+} 
+  
+  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+  
+    .bouttonrecherche i {
+      display: inline;
+      color: white;
+      padding: 17px 7px;
+      border-radius: 25px;
+      position: relative;
+      align-content: center;
+    }
+    .bouttonrecherche
+    {
+      display: inline;
+      color: white;
+      position: relative;
+      right:2px;
+    }
+  
+  .recherchebouton {
+    display:none;
+  }
+.filtres
+{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.titrefiltres
+  {
+  
+  margin-right: 280px;
+  }
+  .Filtre1
+{
+  margin:10px;
+  border-radius: 60px;
+  margin-top:10px;
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+  height: 50px;
+  border: 2px solid #d9d9d9;
+}
+.Filtre1:hover{
+  transform: scale(1.1);
+}
+.IconFiltre
+{
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 60%;
+  height: 3.15rem;
+  width: 3.10rem;
+  margin: auto;
+  display: flex;
+}
+.fa-money-bill-wave-alt
+{
+  display:flex;
+  padding-left: -50px;
+  margin-left: -35px;
+  color:#0065FC;
+}
+.texteeconomy
+{
+  padding:10px;
+  margin-left: 15px;
+}
+  /*
+╔═╗╦╦ ╔╦╗╦═╗╔═╗╔═╗
+╠╣ ║║  ║ ╠╦╝║╣ ╚═╗
+╚  ╩╩═╝╩ ╩╚═╚═╝╚═╝
+*/
+.Filtre2
+{
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  margin-right: -160px;
+  margin-top: -64px;
+  height: 50px;
+  border: 2px solid #d9d9d9;
+  
+}
+.Filtre2:hover{
+  transform: scale(1.1);
+}
+.IconFiltre2
+{
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 60%;
+  height: 3.15rem;
+  width: 3.10rem;
+  margin: auto;
+  display: flex;
+}
+.fa-child
+{
+  display:flex;
+  padding-left: -50px;
+  margin-left: -31px;
+  color:#0065FC;
+}
+.texteFamilial
+{
+  padding:10px;
+  margin-left: 20px;
+}
+/*
+╔═╗╦╦ ╔╦╗╦═╗╔═╗╔═╗
+╠╣ ║║  ║ ╠╦╝║╣ ╚═╗
+╚  ╩╩═╝╩ ╩╚═╚═╝╚═╝
+*/
+.Filtre3
+{
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  margin-right: 140px;
+  margin-top: 13px;
+  height: 50px;
+  border: 2px solid #d9d9d9;
+}
+
+.Filtre3:hover{
+  transform: scale(1.1);
+}
+.IconFiltre3
+{
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 60%;
+  height: 3.15rem;
+  width: 3.10rem;
+  margin: auto;
+  display: flex;
+}
+.fa-heart
+{
+  display:flex;
+  padding-left: -50px;
+  margin-left: -35px;
+  color:#0065FC;
+}
+.texteRomantique
+{
+  padding:10px;
+  margin-left: 20px;
+}
+  /*
+╔═╗╦╦ ╔╦╗╦═╗╔═╗╔═╗
+╠╣ ║║  ║ ╠╦╝║╣ ╚═╗
+╚  ╩╩═╝╩ ╩╚═╚═╝╚═╝
+*/
+.Filtre4
+{
+  border-radius: 29px;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  height: 50px;
+  margin-top: 13px;
+  border: 2px solid #d9d9d9;
+}
+.Filtre4:hover{
+  transform: scale(1.1);
+}
+.IconFiltre4
+{
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 60%;
+  height: 3.15rem;
+  width: 3.10rem;
+  margin: auto;
+  display: flex;
+}
+.fa-dog
+{
+  display:flex;
+  padding-left: -50px;
+  margin-left: -35px;
+  color:#0065FC;
+}
+.texteanimaux
+{
+  padding:10px;
+  margin-left: 20px;
+}
+.logement
+{
+  display:flex;
+  margin-left:39px;
+}
+.logements
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: solid 1px #d9d9d9;
+  height: 30px;
+  width: 30px;
+  border-radius:100px;
+}
+.fa-info
+{
+  color:#0065FC;
+}
+.textlogement500
+{
+  margin-left: 15px;
+  margin-top: 6px;
+}
+}
