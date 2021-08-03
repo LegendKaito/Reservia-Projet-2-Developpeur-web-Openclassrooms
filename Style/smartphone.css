@@ -96,25 +96,25 @@
   
   /* PARAMETRES DU DISPLAY BOUTON LOUPE */
   
-    .bouttonrecherche i {
-      display: inline;
-      color: white;
-      padding: 17px 7px;
-      border-radius: 25px;
-      position: relative;
-      align-content: center;
-    }
-    .bouttonrecherche
-    {
-      display: inline;
-      color: white;
-      position: relative;
-      right:2px;
-    }
+.bouttonrecherche i {
+    display: inline;
+    color: white;
+    padding: 17px 7px;
+    border-radius: 25px;
+    position: relative;
+    align-content: center;
+}
+.bouttonrecherche
+{
+    display: inline;
+    color: white;
+    position: relative;
+    right:2px;
+}
   
-  .recherchebouton {
+.recherchebouton {
     display:none;
-  }
+}
 .filtres
 {
   margin: 10px;
