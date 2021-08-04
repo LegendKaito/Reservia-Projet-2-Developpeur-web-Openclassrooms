@@ -544,6 +544,158 @@ display:flex;
   color: black;
   padding-left: 1px;
 }
+  /*
+╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╦╦  ╦╦╔╦╗╔═╗
+╚═╗║╣ ║   ║ ║║ ║║║║  ╠═╣║   ║ ║╚╗╔╝║ ║ ║╣ 
+╚═╝╚═╝╚═╝ ╩ ╩╚═╝╝╚╝  ╩ ╩╚═╝ ╩ ╩ ╚╝ ╩ ╩ ╚═╝
+*/
+
+.Sectionactivite {
+  margin-bottom: 3rem;
+}
+
+.ActiviteTitre {
+  margin-bottom: 2rem;
+  margin-left: 0.7rem;
+}
+
+.Activite_blockactivs {
+padding-bottom: 1340px;
+}
+
+.Activite_blockactiv {
+  display: flex;
+  justify-content: center;
+  border-radius: 1.5rem;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.1s;
+}
+
+.Activite_blockactiv:hover {
+  transform: scale(1.01);
+}
+Activite_blockactiv h3{
+  text-decoration: none;
+  color:#000000
+}
+
+.activiteblock1{
+  
+  height: 12rem;
+  width: 340px;
+  margin-left: 11px;
+  position: absolute;
+}
+
+.activiteblock2 {
+ 
+  margin-top:230px;
+  margin-left:11px;
+  position:absolute;
+}
+
+.activiteblock3 {
+  
+  height: 12.3rem;
+  width: 340px;
+  
+  position: absolute;
+  margin-top: 460px;
+  margin-left: 11px;
+
+}
+
+.activiteblock4 {
+  position:absolute;
+  height: 12rem;
+  width: 340px;
+  margin-left: 11px;
+  margin-top: 690px;
+}
+
+.activiteblock5 {
+  height: 13rem;
+  width: 340px;
+  margin-top:920px;
+  margin-left:11px;
+  position:absolute;
+}
+
+.activiteblock6 {
+  margin-top:1160px;
+  margin-left:11px;
+  height: 13rem;
+  width: 340px;
+  position:absolute;
+}
+
+.activiteimagepetite {
+  width: 340px;
+  height: 9rem;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.activiteimagepetite45 {
+  width: 340px;
+  height: 9rem;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.activiteimagepetite2 {
+  width: 340px;
+  height: 9rem;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.activiteimagegrande {
+  width: 340px;
+
+  height: 8.5rem;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.activitetitreblockactiv {
+  padding-left: 1rem;
+}
+/*
+╔═╗╔═╗╔═╗╔╦╗╔═╗╦═╗
+╠╣ ║ ║║ ║ ║ ║╣ ╠╦╝
+╚  ╚═╝╚═╝ ╩ ╚═╝╩╚═
+*/
+  .Footer
+{
+  background-color: #f2f2f2;
+
+  display:flex;
+  flex-direction: column;
+  width: 150%;
+  margin-left:-20px;
+}
+  .interieurFooter3
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+.interieurFooter2
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+.interieurFooter
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  padding-top:20px;
+}
 /*
 a faire : 
   Trouver comment reduire la taille des étoiles
