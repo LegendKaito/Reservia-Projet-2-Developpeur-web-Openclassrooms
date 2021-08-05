@@ -12,17 +12,23 @@
     font-size: 16px;
   }
   
-  /* HEADER */
+/*
+╔═╗╔═╗╦═╗╔╦╗╦╔═╗  ╦ ╦╔═╗╔═╗╔╦╗╔═╗╦═╗
+╠═╝╠═╣╠╦╝ ║ ║║╣   ╠═╣║╣ ╠═╣ ║║║╣ ╠╦╝
+╩  ╩ ╩╩╚═ ╩ ╩╚═╝  ╩ ╩╚═╝╩ ╩═╩╝╚═╝╩╚═                                     
+*/
 
   header {
     width: 100%;
     padding-left: 5px;
+    
     
   }
   
   .contenairhead {
     display: flex;
     padding-top: 10px;
+    
     
   }
   
@@ -35,18 +41,14 @@
   /* HEADER MENU */
   .inscrire {
     position: absolute;
-    top: 29px;
-    right: 30px;
-  }
-  .acti {
-    position: absolute;
-    top: 29px;
-    right: 1px;
+    top: 35px;
+    right: -10px;
   }
   .heberg {
     position: absolute;
     top: 80px;
-    right: 200px;
+    border-bottom: 3px solid #f2f2f2;
+    margin-left:-360px;
     padding-bottom: 5px;
     
     
@@ -54,21 +56,27 @@
   .acti{
     position: absolute;
     top: 80px;
-    right: 50px;
     padding-bottom: 5px;
+    margin-left:-160px;
+    font-size:16px;
+    min-width: 180px;
+    border-bottom: 3px solid #f2f2f2;
   }
   nav a {
     font-weight: 500;
     flex-wrap: wrap;
     padding: 10vw 10vw 1vw 15vw;
   }
-  nav ul li{
-  border-bottom: 3px solid #0065fc;
+  nav ul li:hover{
   color: #0065fc;
   overflow:hidden;
-  
-    
   }
+.acti:hover{
+  border-bottom: 3px solid #0065fc;
+}
+.heberg:hover{
+  border-bottom: 3px solid #0065fc;
+}
   nav li {
    position: absolute;
   }
@@ -83,8 +91,14 @@
 .soustext
 {
   
-  margin-left:20px
+  margin-left:20px;
+  margin-bottom:20px
 }
+/*
+╦ ╦╔═╗╔═╗╔╦╗╔═╗╦═╗  ╔═╗╔═╗╦═╗╔╦╗╦ ╦╦  ╔═╗╦╦═╗╔═╗  ╔╦╗╔═╗  ╦═╗╔═╗╔═╗╦ ╦╔═╗╦═╗╔═╗╦ ╦╔═╗
+╠═╣║╣ ╠═╣ ║║║╣ ╠╦╝  ╠╣ ║ ║╠╦╝║║║║ ║║  ╠═╣║╠╦╝║╣    ║║║╣   ╠╦╝║╣ ║  ╠═╣║╣ ╠╦╝║  ╠═╣║╣ 
+╩ ╩╚═╝╩ ╩═╩╝╚═╝╩╚═  ╚  ╚═╝╩╚═╩ ╩╚═╝╩═╝╩ ╩╩╩╚═╚═╝  ═╩╝╚═╝  ╩╚═╚═╝╚═╝╩ ╩╚═╝╩╚═╚═╝╩ ╩╚═╝
+*/
 .iconemap
 {
   margin-left:-20px
@@ -117,6 +131,11 @@
 .recherchebouton {
     display:none;
 }
+/*
+╦ ╦╔═╗╔═╗╔╦╗╔═╗╦═╗  ╔═╗╦╦ ╔╦╗╦═╗╔═╗╔═╗
+╠═╣║╣ ╠═╣ ║║║╣ ╠╦╝  ╠╣ ║║  ║ ╠╦╝║╣ ╚═╗
+╩ ╩╚═╝╩ ╩═╩╝╚═╝╩╚═  ╚  ╩╩═╝╩ ╩╚═╚═╝╚═╝
+*/
 .filtres
 {
   margin: 10px;
@@ -324,17 +343,12 @@
     flex-direction: column-reverse;
     
   }
-  /*
-╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╦  ╔═╗╔═╗  ╔═╗╦  ╦ ╦╔═╗  ╔═╗╔═╗╔═╗╦ ╦╦  ╔═╗╦╦═╗╔═╗
-╚═╗║╣ ║   ║ ║║ ║║║║  ║  ║╣ ╚═╗  ╠═╝║  ║ ║╚═╗  ╠═╝║ ║╠═╝║ ║║  ╠═╣║╠╦╝║╣ 
-╚═╝╚═╝╚═╝ ╩ ╩╚═╝╝╚╝  ╩═╝╚═╝╚═╝  ╩  ╩═╝╚═╝╚═╝  ╩  ╚═╝╩  ╚═╝╩═╝╩ ╩╩╩╚═╚═╝
-*/
 #Populaire
 {
   background-color: #f2f2f2;
   border-radius: 0px;
   width: 100%;
-  margin-left: -50px;
+  margin-left: -55px;
   height: 600px;
   padding: 10px;
 }
@@ -351,7 +365,7 @@
   margin-top:3%;
   position: relative;
   padding-top: 15px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .fa-chart-line
 {
@@ -417,7 +431,7 @@
   display: block;
   padding: 5px;
   box-sizing: border-box;
-  margin: 6px 5px 26px 10px;
+  margin: 6px 5px 25px 10px;
   position: relative;
   box-shadow: 0 5px 16px #0000002e;
   width: 100%;
@@ -510,7 +524,7 @@
 }
 .hotel:hover
 {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 .hotel img {
   background-color: white;
