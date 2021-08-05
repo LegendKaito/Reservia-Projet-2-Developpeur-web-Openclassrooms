@@ -368,7 +368,10 @@ header ul {
 }
 .titresdesection
 {
-  padding:20px
+  padding-top:-20px;
+  padding-left:40px;
+  
+  
 }
 .hebergementmarseille {
   display: flex;
@@ -422,6 +425,8 @@ display:flex;
 .afficherplus {
   color: black;
   padding-left: 25px;
+  padding-top: 35px;
+  font-weight: bold;
 }
 /*
 ╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╦  ╔═╗╔═╗  ╔═╗╦  ╦ ╦╔═╗  ╔═╗╔═╗╔═╗╦ ╦╦  ╔═╗╦╦═╗╔═╗
@@ -569,11 +574,12 @@ display:flex;
 */
 
 .Sectionactivite {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .ActiviteTitre {
   margin-bottom: 2rem;
+  margin-left: 1.5em;
 }
 
 .Activite_blockactivs {
@@ -603,12 +609,14 @@ Activite_blockactiv h3{
 .activiteblock1{
   grid-area: 1 / 1 / 3 / 2;
   height: 100%;
-  width: 100%;
-  margin-left: 20px;
+  width: 91%;
+  margin-left: 40px;
 }
 
 .activiteblock2 {
   grid-area: 1 / 2 / 2 / 3;
+  height: 100%;
+  width: 100%;
   
 }
 
@@ -621,18 +629,20 @@ Activite_blockactiv h3{
 
 .activiteblock4 {
   grid-area: 1 / 3 / 3 / 4;
+  height: 100%;
+  width: 91%;
 }
 
 .activiteblock5 {
   grid-area: 1 / 4 / 2 / 5;
   width:430px;
-  margin-left:-13px;
+  margin-left:-40px;
 }
 
 .activiteblock6 {
   grid-area: 2 / 4 / 3 / 5;
   width:430px;
-  margin-left:-13px;
+  margin-left:-40px;
 }
 
 .activiteimagepetite {

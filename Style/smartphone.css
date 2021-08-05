@@ -604,6 +604,8 @@ Activite_blockactiv h3{
 .activiteblock2 {
  
   margin-top:230px;
+  height: 12rem;
+  width: 340px;
   margin-left:11px;
   position:absolute;
 }
