@@ -164,7 +164,6 @@
 .fa-money-bill-wave-alt
 {
   display:flex;
-  padding-left: -50px;
   margin-left: -35px;
   color:#0065FC;
 }
@@ -204,7 +203,6 @@
 .fa-child
 {
   display:flex;
-  padding-left: -50px;
   margin-left: -31px;
   color:#0065FC;
 }
@@ -244,7 +242,6 @@
 .fa-heart
 {
   display:flex;
-  padding-left: -50px;
   margin-left: -35px;
   color:#0065FC;
 }
@@ -284,7 +281,6 @@
 .fa-dog
 {
   display:flex;
-  padding-left: -50px;
   margin-left: -35px;
   color:#0065FC;
 }
@@ -356,7 +352,7 @@
     }
     .fa-chart-line
     {
-      margin-left: 70%;
+      margin-left: 60%;
     }
     .hotelpopup {
       background: white;
@@ -497,7 +493,7 @@
     
     
     .hotel {
-      width: 100%;
+      width: 40%;
       
       background: white;
       border-radius: 20px;
@@ -506,7 +502,7 @@
       margin: 1px 23px 23px 15px;
           margin-left: 15px;
       box-shadow: 0 5px 16px #0000002e;
-      margin-left: 1px;
+      margin-left: 20px;
       margin-right: 45px;
     }
     .hotel:hover
@@ -543,128 +539,7 @@
     }
     .afficherplus {
       color: black;
-      padding-left: 1px;
-    }
-      /*
-    ╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╦╦  ╦╦╔╦╗╔═╗
-    ╚═╗║╣ ║   ║ ║║ ║║║║  ╠═╣║   ║ ║╚╗╔╝║ ║ ║╣ 
-    ╚═╝╚═╝╚═╝ ╩ ╩╚═╝╝╚╝  ╩ ╩╚═╝ ╩ ╩ ╚╝ ╩ ╩ ╚═╝
-    */
-    
-    .Sectionactivite {
-      margin-bottom: 3rem;
-    }
-    
-    .ActiviteTitre {
-      margin-bottom: 2rem;
-      margin-left: 0.7rem;
-    }
-    
-    .Activite_blockactivs {
-    padding-bottom: 1340px;
-    }
-    
-    .Activite_blockactiv {
-      display: flex;
-      justify-content: center;
-      border-radius: 1.5rem;
-      box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
-      transition-duration: 0.1s;
-    }
-    
-    .Activite_blockactiv:hover {
-      transform: scale(1.01);
-    }
-    Activite_blockactiv h3{
-      text-decoration: none;
-      color:#000000
-    }
-    
-    .activiteblock1{
-      
-      height: 12rem;
-      width: 735px;
-      margin-left: 11px;
-      position: absolute;
-    }
-    
-    .activiteblock2 {
-     
-      margin-top:230px;
-      margin-left:11px;
-      height: 12.3rem;
-      width: 735px;
-      position:absolute;
-    }
-    
-    .activiteblock3 {
-      
-      height: 12.3rem;
-      width: 735px;
-      
-      position: absolute;
-      margin-top: 460px;
-      margin-left: 11px;
-    
-    }
-    
-    .activiteblock4 {
-      position:absolute;
-      height: 12rem;
-      width: 735px;
-      margin-left: 11px;
-      margin-top: 690px;
-    }
-    
-    .activiteblock5 {
-      height: 13rem;
-      width: 735px;
-      margin-top:920px;
-      margin-left:11px;
-      position:absolute;
-    }
-    
-    .activiteblock6 {
-      margin-top:1160px;
-      margin-left:11px;
-      height: 13rem;
-      width: 735px;
-      position:absolute;
-    }
-    
-    .activiteimagepetite {
-      width: 735px;
-      height: 9rem;
-      object-fit: cover;
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
-    }
-    .activiteimagepetite45 {
-      width: 735px;
-      height: 9rem;
-      object-fit: cover;
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
-    }
-    .activiteimagepetite2 {
-      width: 735px;
-      height: 9rem;
-      object-fit: cover;
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
-    }
-    
-    .activiteimagegrande {
-      width: 735px;
-    
-      height: 8.5rem;
-      object-fit: cover;
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
-    }
-    
-    .activitetitreblockactiv {
-      padding-left: 1rem;
+      padding-left: 16px;
     }
     /*
     ╔═╗╔═╗╔═╗╔╦╗╔═╗╦═╗
@@ -703,3 +578,245 @@
     }
 
 }
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1024px) {
+      /*
+    ╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╦╦  ╦╦╔╦╗╔═╗
+    ╚═╗║╣ ║   ║ ║║ ║║║║  ╠═╣║   ║ ║╚╗╔╝║ ║ ║╣ 
+    ╚═╝╚═╝╚═╝ ╩ ╩╚═╝╝╚╝  ╩ ╩╚═╝ ╩ ╩ ╚╝ ╩ ╩ ╚═╝
+    */
+    
+    .Sectionactivite {
+      margin-bottom: 3rem;
+    }
+    
+    .ActiviteTitre {
+      margin-bottom: 2rem;
+      margin-left: 0.7rem;
+    }
+    
+    .Activite_blockactivs {
+    padding-bottom: 650px;
+    }
+    
+    .Activite_blockactiv {
+      display: flex;
+      justify-content: center;
+      border-radius: 1.5rem;
+      box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+      transition-duration: 0.1s;
+    }
+    
+    .Activite_blockactiv:hover {
+      transform: scale(1.01);
+    }
+    Activite_blockactiv h3{
+      text-decoration: none;
+      color:#000000
+    }
+    
+    .activiteblock1{
+      
+      height: 12rem;
+      width: 450px;
+      margin-left: 11px;
+      position: absolute;
+    }
+    
+    .activiteblock2 {
+      margin-left: 500px;
+      height: 12.3rem;
+      width: 450px;
+      position:absolute;
+    }
+    
+    .activiteblock3 {
+      
+      height: 12.3rem;
+      width: 450px;
+      
+      position: absolute;
+      margin-top: 235px;
+      margin-left: 11px;
+    
+    }
+    
+    .activiteblock4 {
+      position:absolute;
+      height: 12rem;
+      width: 450px;
+      margin-left: 500px;
+      margin-top: 235px;
+    }
+    
+    .activiteblock5 {
+      height: 13rem;
+      width: 450px;
+      margin-top:470px;
+      margin-left:11px;
+      position:absolute;
+    }
+    
+    .activiteblock6 {
+      margin-top:470px;
+      margin-left:500px;
+      height: 13rem;
+      width: 450px;
+      position:absolute;
+    }
+    
+    .activiteimagepetite {
+      width: 450px;
+      height: 9rem;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    .activiteimagepetite45 {
+      width: 450px;
+      height: 9rem;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    .activiteimagepetite2 {
+      width: 450px;
+      height: 9rem;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    
+    .activiteimagegrande {
+      width: 450px;
+    
+      height: 8.5rem;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    
+    .activitetitreblockactiv {
+      padding-left: 1rem;
+    }
+  }
+@media (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
+      /*
+    ╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╦╦  ╦╦╔╦╗╔═╗
+    ╚═╗║╣ ║   ║ ║║ ║║║║  ╠═╣║   ║ ║╚╗╔╝║ ║ ║╣ 
+    ╚═╝╚═╝╚═╝ ╩ ╩╚═╝╝╚╝  ╩ ╩╚═╝ ╩ ╩ ╚╝ ╩ ╩ ╚═╝
+    */
+    
+    .Sectionactivite {
+      margin-bottom: 3rem;
+    }
+    
+    .ActiviteTitre {
+      margin-bottom: 2rem;
+      margin-left: 0.7rem;
+    }
+    
+    .Activite_blockactivs {
+    padding-bottom: 650px;
+    }
+    
+    .Activite_blockactiv {
+      display: flex;
+      justify-content: center;
+      border-radius: 1.5rem;
+      box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+      transition-duration: 0.1s;
+    }
+    
+    .Activite_blockactiv:hover {
+      transform: scale(1.01);
+    }
+    Activite_blockactiv h3{
+      text-decoration: none;
+      color:#000000
+    }
+    
+    .activiteblock1{
+      
+      height: 12rem;
+      width: 325px;
+      margin-left: 11px;
+      position: absolute;
+    }
+    
+    .activiteblock2 {
+      margin-left: 380px;
+      height: 12.3rem;
+      width: 325px;
+      position:absolute;
+    }
+    
+    .activiteblock3 {
+      
+      height: 12.3rem;
+      width: 325px;
+      
+      position: absolute;
+      margin-top: 235px;
+      margin-left: 11px;
+    
+    }
+    
+    .activiteblock4 {
+      position:absolute;
+      height: 12rem;
+      width: 325px;
+      margin-left: 380px;
+      margin-top: 235px;
+    }
+    
+    .activiteblock5 {
+      height: 13rem;
+      width: 325px;
+      margin-top:470px;
+      margin-left:11px;
+      position:absolute;
+    }
+    
+    .activiteblock6 {
+      margin-top:470px;
+      margin-left:380px;
+      height: 13rem;
+      width: 325px;
+      position:absolute;
+    }
+    
+    .activiteimagepetite {
+      width: 325px;
+      height: 9rem;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    .activiteimagepetite45 {
+      width: 325px;
+      height: 9rem;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    .activiteimagepetite2 {
+      width: 325px;
+      height: 9rem;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    
+    .activiteimagegrande {
+      width: 325px;
+    
+      height: 8.5rem;
+      object-fit: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    
+    .activitetitreblockactiv {
+      padding-left: 1rem;
+    }
+  }

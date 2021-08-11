@@ -196,7 +196,6 @@ header ul {
 .fa-money-bill-wave-alt
 {
   display:flex;
-  padding-left: -50px;
   margin-left: -35px;
   color:#0065FC;
 }
@@ -236,7 +235,6 @@ header ul {
 .fa-child
 {
   display:flex;
-  padding-left: -50px;
   margin-left: -31px;
   color:#0065FC;
 }
@@ -276,7 +274,6 @@ header ul {
 .fa-heart
 {
   display:flex;
-  padding-left: -50px;
   margin-left: -35px;
   color:#0065FC;
 }
@@ -315,7 +312,6 @@ header ul {
 .fa-dog
 {
   display:flex;
-  padding-left: -50px;
   margin-left: -35px;
   color:#0065FC;
 }
@@ -368,10 +364,7 @@ header ul {
 }
 .titresdesection
 {
-  padding-top:-20px;
   padding-left:40px;
-  
-  
 }
 .hebergementmarseille {
   display: flex;
@@ -449,7 +442,7 @@ display:flex;
   height: 85%;
 }
 .hebergementmarseilles {
-  display:flex-wrap;
+  display:flex;
   
 }
 .titresdesections
