@@ -1,4 +1,4 @@
-@media (min-width: 360px) and (max-width: 767px) /* SMARTPHONES */ {
+@media (max-width: 767px) /* SMARTPHONES */ {
   /* PARAMETRES GENERAUX */
 
 /* DEBUG FIX PROBLEM* {
@@ -149,25 +149,24 @@ margin-left:-60px
 */
 .filtres
 {
-margin: 10px;
 display: flex;
 flex-direction: column;
+padding-bottom:200px;
 
 }
 .titrefiltres
 {
-
-margin-right: 280px;
+left:10px;
+position:absolute;
 }
 .Filtre1
 {
-margin:10px;
+
 border-radius: 60px;
-margin-top:10px;
-display: flex;
-align-items: center;
-margin-right: 150px;
+position:absolute;
 height: 50px;
+margin-left:-20px;
+margin-bottom:-100px;
 border: 2px solid #d9d9d9;
 }
 .Filtre1:hover{
@@ -204,8 +203,10 @@ margin-left: 15px;
 border-radius: 60px;
 display: flex;
 align-items: center;
-margin-right: -160px;
-margin-top: -64px;
+margin-bottom:-100px;
+margin-left: 155px;
+position:absolute;
+margin-top: -65px;
 height: 50px;
 border: 2px solid #d9d9d9;
 
@@ -244,7 +245,9 @@ margin-left: 20px;
 border-radius: 60px;
 display: flex;
 align-items: center;
-margin-right: 140px;
+margin-bottom:-230px;
+margin-left:-20px;
+  position:absolute;
 margin-top: 13px;
 height: 50px;
 border: 2px solid #d9d9d9;
@@ -284,7 +287,9 @@ margin-left: 20px;
 border-radius: 29px;
 display: flex;
 align-items: center;
-margin-right: 100px;
+position:absolute;
+margin-bottom:-370px;
+margin-left:-20px;
 height: 50px;
 margin-top: 13px;
 border: 2px solid #d9d9d9;
@@ -320,12 +325,14 @@ margin-left:39px;
 }
 .logements
 {
+margin-top:20px;
+margin-left:-15px;
 align-items: center;
 justify-content: center;
 display: flex;
 border: solid 1px #d9d9d9;
 height: 30px;
-width: 30px;
+width: 50px;
 border-radius:100px;
 }
 .fa-info
@@ -334,8 +341,10 @@ color:#0065FC;
 }
 .textlogement500
 {
+  
 margin-left: 15px;
-margin-top: 6px;
+padding-top: 10px;
+
 }
 /*
 ╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╦  ╔═╗╔═╗  ╔═╗╦  ╦ ╦╔═╗  ╔═╗╔═╗╔═╗╦ ╦╦  ╔═╗╦╦═╗╔═╗
@@ -960,7 +969,7 @@ border-top-right-radius: 1rem;
 padding-left: 1rem;
   }
 }
-@media (orientation: portrait) and (min-width: 360px) and (max-width: 767px) {
+@media (orientation: portrait)  and (max-width: 767px) {
 
 /*
 ╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╦╦  ╦╦╔╦╗╔═╗

@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1024px) /* Tabblette */ {
+@media (min-width: 768px) and (max-width: 1778px) /* Tabblette */ {
         /* PARAMETRES GENERAUX */
       
       h2 {
@@ -483,7 +483,7 @@
       background-color: white;
       border-radius: 30px;
       width: 100%;
-      padding: 20px;
+      padding-left:10px;
       margin: 0px 10px 0 -50px;
     }
     .titresdesection
@@ -493,7 +493,7 @@
     
     
     .hotel {
-      width: 40%;
+      width: 41%;
       
       background: white;
       border-radius: 20px;
@@ -540,6 +540,8 @@
     .afficherplus {
       color: black;
       padding-left: 16px;
+      margin-top:750px;
+      position:absolute;
     }
     /*
     ╔═╗╔═╗╔═╗╔╦╗╔═╗╦═╗
@@ -578,7 +580,7 @@
     }
 
 }
-@media (orientation: landscape) and (min-width: 768px) and (max-width: 1024px) {
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1600px) {
       /*
     ╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╦╦  ╦╦╔╦╗╔═╗
     ╚═╗║╣ ║   ║ ║║ ║║║║  ╠═╣║   ║ ║╚╗╔╝║ ║ ║╣ 
@@ -699,7 +701,7 @@
       padding-left: 1rem;
     }
   }
-@media (orientation: portrait) and (min-width: 768px) and (max-width: 1024px) {
+@media (orientation: portrait) and (min-width: 768px) and (max-width: 1600px) {
       /*
     ╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╦╦  ╦╦╔╦╗╔═╗
     ╚═╗║╣ ║   ║ ║║ ║║║║  ╠═╣║   ║ ║╚╗╔╝║ ║ ║╣ 
@@ -738,69 +740,69 @@
     .activiteblock1{
       
       height: 12rem;
-      width: 325px;
-      margin-left: 11px;
+      width: 300px;
+      margin-left: 20px;
       position: absolute;
     }
     
     .activiteblock2 {
-      margin-left: 380px;
+      margin-left: 387px;
       height: 12.3rem;
-      width: 325px;
+      width: 300px;
       position:absolute;
     }
     
     .activiteblock3 {
       
       height: 12.3rem;
-      width: 325px;
+      width: 300px;
       
       position: absolute;
       margin-top: 235px;
-      margin-left: 11px;
+      margin-left: 20px;
     
     }
     
     .activiteblock4 {
       position:absolute;
       height: 12rem;
-      width: 325px;
-      margin-left: 380px;
+      width: 300px;
+      margin-left: 387px;
       margin-top: 235px;
     }
     
     .activiteblock5 {
       height: 13rem;
-      width: 325px;
+      width: 300px;
       margin-top:470px;
-      margin-left:11px;
+      margin-left: 20px;
       position:absolute;
     }
     
     .activiteblock6 {
       margin-top:470px;
-      margin-left:380px;
+      margin-left: 387px;
       height: 13rem;
-      width: 325px;
+      width: 300px;
       position:absolute;
     }
     
     .activiteimagepetite {
-      width: 325px;
+      width: 300px;
       height: 9rem;
       object-fit: cover;
       border-top-left-radius: 1rem;
       border-top-right-radius: 1rem;
     }
     .activiteimagepetite45 {
-      width: 325px;
+      width: 300px;
       height: 9rem;
       object-fit: cover;
       border-top-left-radius: 1rem;
       border-top-right-radius: 1rem;
     }
     .activiteimagepetite2 {
-      width: 325px;
+      width: 300px;
       height: 9rem;
       object-fit: cover;
       border-top-left-radius: 1rem;
@@ -808,7 +810,7 @@
     }
     
     .activiteimagegrande {
-      width: 325px;
+      width: 300px;
     
       height: 8.5rem;
       object-fit: cover;

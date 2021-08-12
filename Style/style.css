@@ -378,10 +378,9 @@ header ul {
   border-radius: 20px;
   padding: 7px;
   box-sizing: border-box;
-  margin: 1px 23px 23px 15px;
-      margin-left: 15px;
+  margin: 1px 25px 23px 15px;
+  margin-left: 15px;
   box-shadow: 0 5px 16px #0000002e;
-  margin-left: 23px;
 }
 .hotel:hover
 {
