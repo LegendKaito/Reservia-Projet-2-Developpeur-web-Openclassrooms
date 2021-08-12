@@ -1,6 +1,5 @@
 @media (min-width: 768px) and (max-width: 1024px) /* Tabblette */ {
         /* PARAMETRES GENERAUX */
-      
       h2 {
         /*font-family: 'Raleway-Semibold';*/
         font-size: 20px;
@@ -19,6 +18,7 @@
     */
     
       header {
+        
         width: 100%;
         padding-left: 5px;
 
