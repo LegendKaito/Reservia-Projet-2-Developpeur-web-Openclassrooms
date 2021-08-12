@@ -716,3 +716,194 @@ Activite_blockactiv h3{
   padding:5px;
   color: #000000;
 }
+@media (min-width: 1024px) and (max-width: 1576px) /* Tabblette */ {
+/*
+╦ ╦╔═╗╔╗ ╔═╗╦═╗╔═╗╔═╗╔╦╗╔═╗╔╗╔╔╦╗  ╔═╗  ╔╦╗╔═╗╦═╗╔═╗╔═╗╦╦  ╦  ╔═╗
+╠═╣║╣ ╠╩╗║╣ ╠╦╝║ ╦║╣ ║║║║╣ ║║║ ║   ╠═╣  ║║║╠═╣╠╦╝╚═╗║╣ ║║  ║  ║╣ 
+╩ ╩╚═╝╚═╝╚═╝╩╚═╚═╝╚═╝╩ ╩╚═╝╝╚╝ ╩   ╩ ╩  ╩ ╩╩ ╩╩╚═╚═╝╚═╝╩╩═╝╩═╝╚═╝
+*/
+.hebergementetimage
+{
+  display: flex;
+  margin: 39px;
+}
+#Hebergementblock
+{
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  width: 67%;
+  padding: 20px;
+  margin: 0 20px 0 0;
+}
+.titresdesection
+{
+  padding-left:40px;
+}
+.hebergementmarseille {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+
+.hotel {
+  width: calc(26% - 10px);
+  background: white;
+  border-radius: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  margin: 1px 25px 23px 15px;
+  margin-left: 20px;
+  box-shadow: 0 5px 16px #0000002e;
+}
+.hotel:hover
+{
+  transform: scale(1.1);
+}
+.hotel img {
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+.hotel p 
+{
+  color: black;
+}
+
+.hotel h3
+{
+  color: black;
+}
+.blue
+{
+  color:#0065fc;
+}
+.grey
+{
+  color: #D9D9D9;
+}
+.main
+{
+display:flex;
+}
+.afficherplus {
+  color: black;
+  padding-left: 25px;
+  padding-top: 35px;
+  font-weight: bold;
+}
+/*
+ /*
+╔═╗╔═╗╔═╗╔╦╗╦╔═╗╔╗╔  ╔═╗╔═╗╔╦╗╦╦  ╦╦╔╦╗╔═╗
+╚═╗║╣ ║   ║ ║║ ║║║║  ╠═╣║   ║ ║╚╗╔╝║ ║ ║╣ 
+╚═╝╚═╝╚═╝ ╩ ╩╚═╝╝╚╝  ╩ ╩╚═╝ ╩ ╩ ╚╝ ╩ ╩ ╚═╝
+*/
+
+.Sectionactivite {
+  margin-bottom: 2rem;
+}
+
+.ActiviteTitre {
+  margin-bottom: 2rem;
+  margin-left: 1.5em;
+}
+
+.Activite_blockactivs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2.5vw;
+  grid-row-gap: 2rem;
+}
+
+.Activite_blockactiv {
+  display: flex;
+  justify-content: center;
+  border-radius: 1.5rem;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.1s;
+}
+
+.Activite_blockactiv:hover {
+  transform: scale(1.01);
+}
+Activite_blockactiv h3{
+  text-decoration: none;
+  color:#000000
+}
+
+.activiteblock1{
+  grid-area: 1 / 1 / 3 / 2;
+  height: 100%;
+  width: 91%;
+  margin-left: 40px;
+}
+
+.activiteblock2 {
+  grid-area: 1 / 2 / 2 / 3;
+  height: 100%;
+  width: 300px;
+  margin-left:20px;
+}
+
+.activiteblock3 {
+  grid-area: 2 / 2 / 3 / 3;
+  height: 88%;
+  width: 300px;
+  margin-top:28px;
+  margin-left:20px;
+}
+
+.activiteblock4 {
+  grid-area: 1 / 3 / 3 / 4;
+  height: 100%;
+  width: 91%;
+}
+
+.activiteblock5 {
+  grid-area: 1 / 4 / 2 / 5;
+ width: 300px;
+  margin-left:-20px;
+}
+
+.activiteblock6 {
+  grid-area: 2 / 4 / 3 / 5;
+  width: 300px;
+  margin-left:-20px;
+}
+
+.activiteimagepetite {
+  width: 300px;
+  height: 12rem;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.activiteimagepetite45 {
+  width: 300px;
+  height: 12rem;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.activiteimagepetite2 {
+  width: 300px;
+  height: 10rem;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.activiteimagegrande {
+  height: 30rem;
+  width: 100%;  
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.activitetitreblockactiv {
+  padding-left: 1rem;
+}
+
+}
