@@ -1,6 +1,15 @@
 @media (min-width: 768px) and (max-width: 1024px) /* Tabblette */ {
-        /* PARAMETRES GENERAUX */    
-  h2 {
+        /* PARAMETRES GENERAUX */   
+        ::-webkit-scrollbar{
+          display: none;
+        } 
+        
+  a,.texteanimaux,.texteeconomy,.texteFamilial,.texteRomantique{
+    font-family: "Raleway", serif;
+    text-decoration:none;
+    color:#000000
+  } 
+        h2 {
         /*font-family: 'Raleway-Semibold';*/
         font-size: 20px;
         max-width: 90%;

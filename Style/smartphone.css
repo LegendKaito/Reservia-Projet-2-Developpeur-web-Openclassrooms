@@ -11,16 +11,23 @@ h2 {
   max-width: 90%;
   font-weight: bold;
 }
-
+a,.texteanimaux,.texteeconomy,.texteFamilial,.texteRomantique{
+  font-family: "Raleway", serif;
+  text-decoration:none;
+  color:#000000
+}
 h3 {
   font-size: 16px;
 }
-
+::-webkit-scrollbar{
+  display: none;
+}
 /*
 ╔═╗╔═╗╦═╗╔╦╗╦╔═╗  ╦ ╦╔═╗╔═╗╔╦╗╔═╗╦═╗
 ╠═╝╠═╣╠╦╝ ║ ║║╣   ╠═╣║╣ ╠═╣ ║║║╣ ╠╦╝
 ╩  ╩ ╩╩╚═ ╩ ╩╚═╝  ╩ ╩╚═╝╩ ╩═╩╝╚═╝╩╚═                                     
 */
+
 #bloc_de_page {
   width: 100%;
   height: 100%;
@@ -50,10 +57,10 @@ header {
 }
 
 /* HEADER MENU */
-.inscrire {
+.inscrire{
   position: absolute;
   top: 35px;
-  right: -10px;
+  right: -0px;
 }
 .heberg {
   position: absolute;
@@ -586,12 +593,10 @@ padding-left: 1px;
 */
 .Footer
 {
-background-color: #f2f2f2;
-
-display:flex;
-flex-direction: column;
-width: 111%;
-margin-left:-20px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
 .interieurFooter3
 {

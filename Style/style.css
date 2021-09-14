@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6,
- a{
+ a,.texteanimaux,.texteeconomy,.texteFamilial,.texteRomantique{
     font-family: "Raleway", serif;
     text-decoration:none;
     color:#000000
@@ -16,13 +16,15 @@ h6,
 p {
     font-family: "Raleway", serif ;
   }
-
-/*
+ /* t* {
+color: #0f0 !important;
+outline: solid #f00 1px !important;
+}*/
+  /*
 ╔═╗╔═╗╦═╗╔╦╗╦╔═╗  ╦ ╦╔═╗╔═╗╔╦╗╔═╗╦═╗
 ╠═╝╠═╣╠╦╝ ║ ║║╣   ╠═╣║╣ ╠═╣ ║║║╣ ╠╦╝
 ╩  ╩ ╩╩╚═ ╩ ╩╚═╝  ╩ ╩╚═╝╩ ╩═╩╝╚═╝╩╚═                                     
 */
-/*Réglage du header*/
 #bloc_de_page {
   margin: auto;
   width: 95%;
@@ -737,17 +739,6 @@ Activite_blockactiv h3{
   padding-left: 15px;
 }
 
-.hotel {
-  width: calc(26% - 10px);
-  background: white;
-  border-radius: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-  margin: 1px 25px 23px 15px;
-  margin-left: 20px;
-  box-shadow: 0 5px 16px #0000002e;
-  color: black;
-}
 .hotel:hover
 {
   transform: scale(1.1);
@@ -774,7 +765,7 @@ display:flex;
 .afficherplus {
   color: black;
   padding-left: 25px;
-  padding-top: 35px;
+  padding-top: 3px;
   font-weight: bold;
 }
 /*
@@ -1659,4 +1650,96 @@ Activite_blockactiv h3{
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
+}
+  @media (min-width: 1500px) and (max-width: 1593px) /* Fixcentragegebergement */ {
+.hotel {
+    width: calc(28% - 10px);
+    background: white;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    margin: 1px 35px 23px 15px;
+        margin-left: 15px;
+    margin-left: 20px;
+    box-shadow: 0 5px 16px #0000002e;
+    color: black;
+}
+}
+  @media (min-width: 1350px) and (max-width: 1499px) /* Fixcentragegebergement */ {
+.hotel {
+    width: calc(28% - 10px);
+    background: white;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    margin: 1px 30px 23px 15px;
+        margin-left: 15px;
+    margin-left: 20px;
+    box-shadow: 0 5px 16px #0000002e;
+    color: black;
+}
+}
+  @media (min-width: 1210px) and (max-width: 1349px) /* Fixcentragegebergement */ {
+.hotel {
+    width: calc(28% - 10px);
+    background: white;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    margin: 1px 25px 23px 15px;
+        margin-left: 15px;
+    margin-left: 20px;
+    box-shadow: 0 5px 16px #0000002e;
+    color: black;
+}
+}
+  @media (min-width: 1065px) and (max-width: 1209px) /* Fixcentragegebergement */ {
+.hotel {
+    width: calc(28% - 10px);
+    background: white;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    margin: 1px 20px 23px 15px;
+        margin-left: 15px;
+    margin-left: 20px;
+    box-shadow: 0 5px 16px #0000002e;
+  color: black; }
+ .afficherplus {
+    color: black;
+    padding-left: 25px;
+    padding-top: 3px;
+    font-weight: bold;
+}
+    
+    .afficherplus {
+    color: black;
+    padding-left: 25px;
+    padding-top: 3px;
+      font-weight: bold;}
+}
+  @media (min-width: 1026px) and (max-width: 1064px) /* Fixcentragegebergement */ {
+.hotel {
+    width: calc(28% - 10px);
+    background: white;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    margin: 1px 15px 23px 15px;
+        margin-left: 15px;
+    margin-left: 20px;
+    box-shadow: 0 5px 16px #0000002e;
+  color: black; }
+ .afficherplus {
+    color: black;
+    padding-left: 25px;
+    padding-top: 3px;
+    font-weight: bold;
+}
+    
+    .afficherplus {
+    color: black;
+    padding-left: 25px;
+    padding-top: 3px;
+      font-weight: bold;}
 }
